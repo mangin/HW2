@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">    <title>HW2</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script type="text/javascript" src="scheme.js"></script>
+    <script type="text/javascript" src="logic.js"></script>
+    <script type="text/javascript" src="testDbGenerator.js"></script>
+  </head>
+<body">
+HW2<br />
+Coardinates X (0-1000):<input id="x-pos" value=500 />
+Y (0-1000):<input id="y-pos" value=500 /><br />
+Film name (required):<input id="film-name" value="Film N15" /><br />
+Minimal cinema rating (1-5):<input id="cinema-rating" value="2" /><br />
+Minimal hall rating (1-5):<input id="hall-rating" value="2" /><br />
+Max distance:<input id="max-distance" value="450" /><br />
+<button id="apply-future-button">Find future sessions</button>
+<button id="apply-past-button">Find previous sessions</button><br />
+top 5 the nearest cinemas:<br />
+<div id="s-div"></div>
+<br />
+Map:
+<br />
+<div id="map" style="width: 600px; height: 400px"></div>
+<script type="text/javascript" src="ui.js"></script>
+</body></html>
